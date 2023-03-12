@@ -1,0 +1,37 @@
+@media only screen and (min-width: 992px) {
+  #job-info {
+    display: grid;
+  }
+  .kinhnghiem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+  .hoatdong {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+  .nhanh {
+    border: 1px solid #dee2e6;
+  }
+  .hoat {
+    border: none !important;
+  }
+  /* .hinhchandung {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid red;
+    width: 200px;
+  } */
+  .chandung {
+    position: absolute;
+  }
+  .hinhchandung {
+    width: 10vw;
+    height: 12vw;
+    border-radius: 50%;
+    border: 10px solid #f8f9fa;
+    object-fit: cover;
+  }
+}

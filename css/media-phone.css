@@ -1,0 +1,141 @@
+/* màng hình phone từ 600px trở xuống */
+@media only screen and (max-width: 576px) {
+  * {
+    color: #495057;
+  }
+  .row {
+    --bs-gutter-x: 0px;
+    --bs-gutter-y: 0;
+  }
+  #banner1 {
+    top: 50px;
+  }
+  #imgbanner {
+    filter: brightness(60%);
+    height: 100vh;
+    object-fit: cover;
+  }
+  #fullstack {
+    width: 150px;
+  }
+  .navmobi {
+    display: block;
+    /* flex-direction: column;
+    align-items: flex-start; */
+    padding-bottom: 20px;
+  }
+  .icon {
+    color: #4dabf7 !important;
+  }
+  .li1 {
+    list-style-type: disc;
+    color: #4dabf7;
+  }
+  .tieude {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-right: 20vw;
+    padding-top: 50px;
+  }
+  .lala {
+    font-size: 10vw;
+    color: #adb5bd;
+  }
+  .hiendai {
+    background-color: #4dabf7;
+  }
+  .div1 {
+    height: 2px;
+    width: 10vw;
+    background-color: #4dabf7;
+  }
+  .div2 {
+    height: 2px;
+    width: 10vw;
+    background-color: #dee2e6;
+  }
+  .sothich i {
+    font-size: 5vw;
+    align-items: center;
+    color: #4dabf7;
+    border: #4dabf7 solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    height: 10vw;
+    width: 10vw;
+  }
+  #personal-info {
+    background-color: #dee2e6;
+  }
+  #target {
+    background-color: #e9ecef;
+  }
+  .nhanh {
+    margin: 50px 0px;
+  }
+  .thongtin,
+  .lylich,
+  .chungchy,
+  .duana {
+    border: none;
+    text-align: start;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: block;
+  }
+  .icon {
+    color: #4dabf7 !important;
+  }
+  /* .hoatdong {
+    margin-top: 20px;
+  } */
+  .hoat {
+    margin-top: 0px;
+  }
+  .thuong1,
+  .thuong2,
+  .thuong3 {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .thuong2 {
+    margin-top: 50px;
+  }
+  .p2021 {
+    background-color: #4dabf7;
+    width: 100px;
+  }
+  .canhan {
+    margin-left: 20px;
+  }
+  #certificate {
+    background-color: #f1f3f5;
+  }
+
+  #job-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .chungchi {
+    display: flex;
+    flex-direction: column;
+  }
+  .chungchi1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cuoi {
+    display: flex;
+    flex-direction: column;
+  }
+  .duan {
+    margin-top: 50px;
+  }
+  .end p {
+    display: none;
+  }
+  .canxoa {
+    display: none;
+  }
+}
